@@ -1,0 +1,42 @@
+{
+  "name": "ng-window-scope-size",
+  "version": "1.0.0",
+  "description": "AngularJS directive that will add window size to scope",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RGSSoftware/ng-window-scope-size.git"
+  },
+  "scripts": {
+    "gulp": "gulp",
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS",
+    "coverage": "karma start --reporters coverage --single-run"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "directive",
+    "window-scope-size",
+    "window"
+  ],
+  "author": "Randel Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.4.0",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.0",
+    "karma-cli": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-spec-reporter": "0.0.31",
+    "phantomjs-prebuilt": "^2.1.15"
+  },
+  "dependencies": {}
+}
